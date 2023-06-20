@@ -1,0 +1,89 @@
+*{
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.Timer{
+    position: relative;
+    top: 20px;
+    left: 15px;
+    /*Criam uma "imagem" com cores distintas*/
+    background-image: linear-gradient(100deg, rgb(255, 251, 0), rgb(255, 0, 0), rgb(255, 102, 0));
+    background-clip: text;/*Escondeu o degadê atás do texto.*/
+    -webkit-background-clip: text;/*para colorir no formato do texto.*/
+    -webkit-text-fill-color: transparent;/*Para deixar trasparenteo texto.*/   
+}
+.Fundo{
+    position: relative;
+    background-color: rgb(96, 17, 128);
+    font-family: NDS12;
+    font-size: 75px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 355px;
+    height: 120px;
+    top: -115px;
+}
+.divAlarme{
+    position: absolute;
+    display: flex;
+    background-color: #00aeff;
+    left: 25%;
+    top: 15%;
+    padding: 150px;
+    border-radius: 15px;
+    border: 5px solid #000;
+}
+.divAlarmeTocando{
+    background-color: #ff0000 !important;
+}
+#lbHorario{
+    position: absolute;
+    left: 55px;
+    top: 195px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#lbInstrucao{
+    position: absolute;
+    left: 180px;
+    top: 260px;
+    font-weight: bold;
+}
+#inputNumber{
+    position: absolute;
+    border-radius: 15px;
+    left: 150px;
+    top: 280px;
+    width: 350px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 25px;
+    border: 5px solid #000;
+    padding: 5px;
+}
+.btnAtivar{
+    position: absolute;
+    top: 355px;
+    left: 175px;
+    width: 113px;
+    height: 55px;
+    background-color: rgb(81, 255, 0);
+    border-radius: 15px;
+    font-weight: bold;
+    border: 5px solid #000;
+    cursor: pointer;
+}
+.btnParar{
+    position: absolute;
+    top: 355px;
+    left: 360px;
+    width: 113px;
+    height: 55px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 15px;
+    font-weight: bold;
+    border: 5px solid #000;
+    cursor: pointer;
+}
